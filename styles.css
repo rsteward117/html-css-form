@@ -1,0 +1,200 @@
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body{
+    background: #D3D3D3;
+    font-family: Arial, sans-serif;
+}
+
+body a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+body a:hover{
+    text-decoration: underline;
+}
+/* header name */
+.main-company-name{
+    font-size: 1.4rem;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+}
+
+/* navbar list of companies */
+
+.list-of-other-companies-header{
+    margin-bottom: 20px;
+}
+
+.companies-list{
+    text-align: center;
+}
+
+.companies-list ul{
+    height: 23px;
+    width: 100%;
+    margin: auto 0;
+    padding-left: 0;
+}
+
+nav .companies-list, ul, li{
+    display: inline;
+    cursor: pointer;
+    margin-right: 0.375rem;
+}
+
+nav .companies-list, ul, li, h2{
+    display: inline;
+    position: relative;
+}
+
+.company img{
+    width: 18px;
+} 
+
+.company a{
+    text-decoration: none;
+    color: gray;
+    font-size: .8rem;
+}
+
+main{
+    /* add something later */
+}
+
+.main-form-container{
+    display: flex;
+    justify-content: center;
+}
+
+.form-content-container-card{
+    border: 1px black;
+    border-style: solid;
+    background-color: white;
+    height: 50%;
+    width: 35%;
+}
+
+@media only screen and (max-width: 375px) {
+    .form-content-container-card{
+      width: 90%;
+    }
+  }
+@media only screen and (max-width: 414px) {
+    .form-content-container-card{
+      width: 90%;
+    }
+  }
+@media only screen and (max-width: 540px) {
+    .form-content-container-card{
+      width: 60%;
+    }
+  }
+
+.form-header{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.form-header span{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.9rem;
+    font-weight: 100;
+}
+
+.sign-up-form{
+    
+}
+
+.sign-up-form fieldset{
+    margin-bottom: 35px;
+    border: none;
+}
+
+.sign-up-form fieldset label{
+    display: block;
+}
+
+.sign-up-form fieldset input{
+    width: 100%;
+    height: 30px;
+}
+
+.password{
+    padding-right: 25px;
+    background: url("images/unlock.png") no-repeat right;
+    background-size: 25px;
+}
+
+.sign-up-form fieldset span{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.sign-up-form fieldset p{
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.create-account-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.create-account-btn{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F51FF;
+    cursor: pointer;
+    border-radius: 10px;
+    border:none;
+}
+
+.create-account-btn img{
+    width: 10%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.create-account-btn p{
+    font-size: 1rem;
+    color: white;
+}
+
+.sign-up-terms-of-use-text{
+    text-align: center;
+}
+
+.captcha-tos-container{
+    background-color: gray;
+    padding-bottom: 1rem;
+}
+
+.captcha-tos-container p{
+    padding-top: 1rem;
+}
+
+.main-footer{
+    margin-top: 1rem;
+    text-align: center;
+}
+.main-footer .main-footer-links-container .main-footer-links li a{
+    color: black;
+}
+
+
+

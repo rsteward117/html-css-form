@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Html css form project</title>
+</head>
+<body>
+    <!-- company name/logo header -->
+    <header>
+            <div class="main-company-name">
+                <h1>Intuit</h1>
+            </div>
+    </header>
+    <!-- navbar list of other compaines -->
+    <section>
+        <div class="list-of-other-companies-header">
+            <nav class="companies-list">
+                <ul>
+                    <li class="company">
+                        <a href="https://mint.intuit.com/" target="_blank">
+                            <img src="images/mint.svg" alt="image of the mint company logo">
+                        </a>
+                        <a href="https://mint.intuit.com/" target="_blank">
+                            <h2>
+                                mint
+                            </h2>
+                        </a>
+                    </li>
+                    <li class="company">
+                        <a href="https://quickbooks.intuit.com/" target="_blank">
+                            <img src="images/quickbooks.svg" alt="image of the quickbooks company logo">
+                        </a>
+                        <a href="https://quickbooks.intuit.com/" target="_blank">
+                            <h2>
+                                quickbooks
+                            </h2>
+                        </a>
+                    </li>
+                    <li class="company">
+                        <a href="https://turbotax.intuit.com/" target="_blank">
+                            <img src="images/turbotax.svg" alt="image of the turbotax company logo">
+                        </a>
+                        <a href="https://turbotax.intuit.com/" target="_blank">
+                            <h2>
+                                turbotax
+                            </h2>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <main>
+    <div class="main-form-container">
+        <div class="form-content-container-card">
+                <section>
+                    <header class="form-header">
+                        <span>
+                            Create an Intuit account
+                        </span>
+                        <p>
+                            One account for everything Intuit, including Mint. 
+                                <a href="https://accounts-help.intuit.com/app/intuit/1995107" target="_blank">
+                                    Learn more
+                                </a>
+                        </p>
+                    </header>
+                    <form class="sign-up-form">
+                        <fieldset>
+                            <label for="email">Email</label>
+                            <br>
+                            <input type="text" name="email" id="email">
+                        </fieldset>
+                        <fieldset>
+                            <label for="phone">Phone <span>(recommended)</span></label>
+                            <br>
+                            <input type="tel" name="phone" id="phone">
+                            <br>
+                            <p>Standard call, messaging or data rates may apply.</p>
+                        </fieldset>
+                        <fieldset>
+                            <label for="password">Password</label>
+                            <br>
+                            <input type="password" name="password" class="password" id="password">
+                        </fieldset>
+                        <div class="create-account-btn-container">
+                            <button class="create-account-btn">
+                                    <img src="images/lock.png" alt="form unlock image">
+                                    <p>Create Account</p>
+                            </button>
+                        </div>
+                        <footer>
+                            <div class="sign-up-terms-of-use-text">
+                                <p>
+                                    By selecting Create account, you agree to our <a href="https://mint.intuit.com/terms" target="_blank">Terms</a>
+                                    and have read and acknowledge our <a href="https://www.intuit.com/privacy/statement/" target="_blank">Global Privacy Statement.</a>
+                                </p>
+                            </div>
+                        </footer>
+                    </form>
+                </section>
+                <div class="captcha-tos-container">
+                    <section>
+                        <p>
+                            Invisible reCAPTCHA by Google <a href="https://policies.google.com/privacy?hl=en" target="_blank">Privacy Policy</a> and <a href="https://policies.google.com/terms?hl=en" target="_blank">Terms of Use.</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <footer class="main-footer">
+            <div class="main-footer-links-container">
+                <ul class="main-footer-links">
+                    <li><a href="https://www.intuit.com/legal/" target="_blank">Legal</a></li>
+                    <li><a href="https://www.intuit.com/privacy/statement/" target="_blank">Privacy</a></li>
+                    <li><a href="https://security.intuit.com/" target="_blank">Security</a></li>
+                </ul>
+                <p>© 2022 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+                    Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
